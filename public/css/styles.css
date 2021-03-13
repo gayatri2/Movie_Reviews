@@ -20,11 +20,11 @@ body, html {
        
 }
 /*.bglanding{
-     /* The image used */
+   
      background: url("../images/dubai2.jpg") ;
         
  
-     /* Full height */
+     
 
      background-position: center;
      background-repeat: no-repeat;
@@ -165,6 +165,9 @@ body, html {
       color:#777;
       margin-bottom: -0.5%;
   }
+  .items{
+    margin-left: 50%;
+  }
   .bar{
     margin-top: -177%;
     margin-left: 2%;
@@ -175,3 +178,8 @@ body, html {
     height:8%;
     width:8%;
   }
+
+
+  
+
+  

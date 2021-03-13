@@ -24,8 +24,12 @@ const User=new mongoose.model("User",userSchema);
 
 
 app.get("/",function(req,res){
+    res.sendFile(__dirname+"/landing.html");
+});
+app.get("/login",function(req,res){
     res.sendFile(__dirname+"/index.html");
 });
+
 app.get("/register",function(req,res){
     res.sendFile(__dirname+"/register.html");
 });
