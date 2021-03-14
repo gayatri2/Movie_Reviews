@@ -15,7 +15,7 @@ The authentication system has two parts, login and register. Hashing and salting
 After successful login the user can give review.
 The review page has back button, by clicking on it, the user will be redirected to the landing page.
 
-Steps need to run the project: 
+Steps needed to run the project: 
 1.	Download and unzip the GitHub repository
 2.	Open the folder containing all the files and type “npm init” in the cmd prompt
 3.	After all the files are downloaded, type “nodemon index.js” in the cmd prompt
