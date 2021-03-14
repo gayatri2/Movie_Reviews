@@ -20,3 +20,4 @@ Steps need to run the project:
 2.	Open the folder containing all the files and type “npm init” in the cmd prompt
 3.	After all the files are downloaded, type “nodemon index.js” in the cmd prompt
 4.	Open chrome/any other browser and type “localhost:3000” in the address bar
+
