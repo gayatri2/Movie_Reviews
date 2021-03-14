@@ -22,3 +22,12 @@ Steps need to run the project:
 4.	Open chrome/any other browser and type “localhost:3000” in the address bar
 
 
+![image](https://user-images.githubusercontent.com/56043146/111077360-77c36180-8516-11eb-83ae-5e317fc0c0a8.png)
+![image](https://user-images.githubusercontent.com/56043146/111077404-a3464c00-8516-11eb-9d6d-46cafeb84086.png)
+![image](https://user-images.githubusercontent.com/56043146/111077445-d38dea80-8516-11eb-9f49-55193ee2e301.png)
+![image](https://user-images.githubusercontent.com/56043146/111077490-fcae7b00-8516-11eb-9207-1222d3dcadb6.png)
+![image](https://user-images.githubusercontent.com/56043146/111077525-2d8eb000-8517-11eb-8fa0-a12d8229badc.png)
+![image](https://user-images.githubusercontent.com/56043146/111077538-3ed7bc80-8517-11eb-8ecc-758fc4a393ce.png)
+![image](https://user-images.githubusercontent.com/56043146/111077548-50b95f80-8517-11eb-9b3e-c88dc50dd4e5.png)
+![image](https://user-images.githubusercontent.com/56043146/111077590-79415980-8517-11eb-8448-161738ffebd5.png)
+![image](https://user-images.githubusercontent.com/56043146/111077630-b0176f80-8517-11eb-9c2e-3b03aeeb591e.png)
