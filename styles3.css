@@ -1,0 +1,26 @@
+body{
+
+    
+ 
+    background-image: url(../images/rr.jpg);
+    height: 100%;
+    height:97vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+  }
+  h1{
+      margin-left: 27%;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-top: 5%;
+  }
+  h2{
+      margin-left: 27%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+  }
+  a{
+    margin-top: 6%;
+    margin-left: 40%;
+  }

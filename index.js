@@ -57,40 +57,40 @@ app.get("/",function(req,res){
     else
     {
     
-    var mov1=Math.round(Number(results[0].sumrate)/Number(results[0].total));
+    var mov1=(Number(results[0].sumrate)/Number(results[0].total)).toFixed(1);
     if(results[0].total==0){mov1 = 0};
     console.log("1",mov1);
-    var mov2=Math.round(Number(results[1].sumrate)/Number(results[1].total));
+    var mov2=(Number(results[1].sumrate)/Number(results[1].total)).toFixed(1);
     if(results[1].total==0){mov2 = 0};
     console.log("2",mov2);
-    var mov3=Math.round(Number(results[2].sumrate)/Number(results[2].total));
+    var mov3=(Number(results[2].sumrate)/Number(results[2].total)).toFixed(1);
     if(results[2].total==0){mov3 = 0};
     console.log("3",mov3);
-    var mov4=Math.round(Number(results[3].sumrate)/Number(results[3].total));
+    var mov4=(Number(results[3].sumrate)/Number(results[3].total)).toFixed(1);
     if(results[3].total==0){mov4 = 0};
     console.log("4",mov4);
-    var mov5=Math.round(Number(results[4].sumrate)/Number(results[4].total));
+    var mov5=(Number(results[4].sumrate)/Number(results[4].total)).toFixed(1);
     if(results[4].total==0){mov5 = 0};
     console.log("5",mov5);
-    var mov6=Math.round(Number(results[5].sumrate)/Number(results[5].total));
+    var mov6=(Number(results[5].sumrate)/Number(results[5].total)).toFixed(1);
     if(results[5].total==0){mov6 = 0};
     console.log("6",mov6);
-    var mov7=Math.round(Number(results[6].sumrate)/Number(results[6].total));
+    var mov7=(Number(results[6].sumrate)/Number(results[6].total)).toFixed(1);
     if(results[6].total==0){mov7 = 0};
     console.log("7",mov7);
-    var mov8=Math.round(Number(results[7].sumrate)/Number(results[7].total));
+    var mov8=(Number(results[7].sumrate)/Number(results[7].total)).toFixed(1);
     if(results[7].total==0){mov8 = 0};
     console.log("8",mov8);
-    var mov9=Math.round(Number(results[8].sumrate)/Number(results[8].total));
+    var mov9=(Number(results[8].sumrate)/Number(results[8].total)).toFixed(1);
     if(results[8].total==0){mov9 = 0};
     console.log("9",mov9);
-    var mov10=Math.round(Number(results[9].sumrate)/Number(results[9].total));
+    var mov10=(Number(results[9].sumrate)/Number(results[9].total)).toFixed(1);
     if(results[9].total==0){mov10 = 0};
     console.log("10",mov10);
-    var mov11=Math.round(Number(results[10].sumrate)/Number(results[10].total));
+    var mov11=(Number(results[10].sumrate)/Number(results[10].total)).toFixed(1);
     if(results[10].total==0){mov11 = 0};
     console.log("11",mov11);
-    var mov12=Math.round(Number(results[11].sumrate)/Number(results[11].total));
+    var mov12=(Number(results[11].sumrate)/Number(results[11].total)).toFixed(1);
     if(results[11].total==0){mov12 = 0};
     console.log("12",mov12);
     res.render("landing",{mov1:mov1,mov2:mov2,mov3:mov3,mov4:mov4,mov5:mov5,mov6:mov6,mov7:mov7,mov8:mov8,mov9:mov9,mov10:mov10,mov11:mov11,mov12:mov12,authenticate:flag});
@@ -289,7 +289,7 @@ app.get("/movie/:inp",function(req,res){
             var tot=result.total;
             console.log(sum);
             console.log(tot);
-            var avg=Number(sum)/Number(tot);
+            var avg=(Number(sum)/Number(tot)).toFixed(1);
            res.render('dummy',{results:results,avg:avg});  //ejs file to be rendered is 'dummy.ejs'
  
 
