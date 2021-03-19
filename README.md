@@ -14,6 +14,7 @@ It has a navbar from where the user can login, register and give review for the 
 The authentication system has two parts, login and register. Hashing and salting authentication has been implemented.
 After successful login the user can give review.
 The review page has back button, by clicking on it, the user will be redirected to the landing page.
+You can also filter the movies according to the languages you want.
 
 Steps needed to run the project: 
 1.	Download and unzip the GitHub repository
