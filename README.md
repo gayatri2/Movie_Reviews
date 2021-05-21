@@ -2,7 +2,7 @@
 
 This is a theatre’s website, called NOX Cinemas.
 
-Technologies used: Html, CSS, JavaScript, Mongo DB.
+Technologies used: Html, CSS, JavaScript, Mongo DB. <br />
 Dependencies are: Node JS, Express JS, mongoose.
 
 The project is designed as a website, where a user can see the ratings and review of movies which are being shown currently.
