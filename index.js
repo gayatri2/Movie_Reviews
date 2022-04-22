@@ -125,6 +125,7 @@ app.get("/reviews",function(req,res){
 app.post("/login",function(req,res){
     email=req.body.email;
     const password = req.body.password;
+    var red = 0;
     User.findOne({email: email}, function(err, foundUser){
       if (err) {
         console.log(err);
@@ -132,25 +133,26 @@ app.post("/login",function(req,res){
   
         if (foundUser) {
           if (foundUser.password === password) {
+            
             flag=1;
             if(read==1)
             {
+              console.log("shitttt");
               res.sendFile(__dirname+"/reviews.html");
             }
             else
             {
               res.redirect("/");
             }
-            
           }
-          else
-          {
-              console.log("Not Found");
-          }
+          
+        }
+        else{
+          console.log("ok");
+          res.sendFile(__dirname+"/register.html");
         }
       }
     });
-  
   });
 app.post("/register",function(req,res){
     //console.log(req.body.email);
